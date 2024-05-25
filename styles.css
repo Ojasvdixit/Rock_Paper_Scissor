@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.left, .right {
+    height: 75vh;
+    width: 50%;
+    float: left;
+}
+
+.left {
+    background-color: antiquewhite;
+}
+
+.right {
+    background-color: rgb(169, 197, 191);
+}
+
+.innerleft, .innerright {
+    height: 55%;
+    background-color: white;
+    margin: 10px 30px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#leftul, #rightul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+button {
+    height: 40px;
+    width: 80px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(243, 248, 248);
+}
+
+div h1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.resultsection {
+    background-color: rgb(202, 219, 213);
+    text-align: center;
+    height: 170px;
+    float: left;
+    width: 100%;
+}
+
+#Restart {
+    display: inline;
+    margin-bottom: 30px;
+    width: 100px;
+    font-size: 20px;
+}
